@@ -58,6 +58,14 @@ body {
   display: flex;
 }
 
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+
 .logo-link__img {
   width: 139px;
   height: 20px;
@@ -396,5 +404,5 @@ body {
   font-size: 15px;
   line-height: 26px;
   white-space: nowrap;
-  opacity: 0.5;
+  color: rgba(255, 255, 255, .5);
 }
